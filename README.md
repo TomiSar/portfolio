@@ -12,6 +12,10 @@ Modern, lightweight, and high-performance portfolio site built using the Astro f
 ![alt text](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![alt text](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
+## Deployment
+
+https://portfolio-seven-tawny-51.vercel.app/
+
 ## ✨ Main fetures
 
 Data-Driven Architecture: All content (work experience, education, skills) is managed centrally in a single JSON file.
