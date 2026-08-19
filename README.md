@@ -24,7 +24,7 @@ Modern Tech Stack: Leverages Lucide icons, the Inter font, and typed data.
 
 - Framework: Astro 5
 - Languages: TypeScript, HTML5, CSS3 (Scoped & Global)
-- Components: Astro Components & React (valitut interaktiiviset osat)
+- Components: Astro Components
 - Icons: Lucide-Astro & Material UI Icons
 - Data: JSON-based CV-structure
 
