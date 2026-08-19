@@ -1,0 +1,26 @@
+---
+interface Props {
+  skills: Record<string, string[]>;
+}
+
+const { skills } = Astro.props;
+---
+
+<section class='section skills-section' id='skills'>
+  <h2>Core Skills</h2>
+  <div class='skills-grid'>
+    {
+      Object.entries(skills).map(([category, items]) => (
+        <div class='skill-category'>
+          <h4>{category}</h4>
+
+          <ul>
+            {items.map((skill) => (
+              <li>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</section>

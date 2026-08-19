@@ -1,0 +1,47 @@
+---
+interface Social {
+  url: string;
+  img: string;
+  alt: string;
+}
+
+interface Props {
+  socials: {
+    instagram: Social;
+    github: Social;
+    linkedin: Social;
+  };
+}
+
+const { socials } = Astro.props;
+---
+
+<footer class='social-section' id='socialmedia'>
+  <h2>Social Media</h2>
+  <div class='nav-links'>
+    <a href={socials.instagram.url} target='_blank' rel='noopener noreferrer'>
+      <img
+        class='social-image'
+        src={socials.instagram.img}
+        alt={socials.instagram.alt}
+      />
+      Instagram
+    </a>
+    <a href={socials.github.url} target='_blank' rel='noopener noreferrer'>
+      <img
+        class='social-image'
+        src={socials.github.img}
+        alt={socials.github.alt}
+      />
+      GitHub
+    </a>
+    <a href={socials.linkedin.url} target='_blank' rel='noopener noreferrer'>
+      <img
+        class='social-image'
+        src={socials.linkedin.img}
+        alt={socials.linkedin.alt}
+      />
+      LinkedIn
+    </a>
+  </div>
+</footer>

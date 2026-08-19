@@ -1,0 +1,55 @@
+---
+import {
+  Bike,
+  Music,
+  Coffee,
+  Terminal,
+  Plane,
+  Trees,
+} from 'lucide-astro';
+
+interface Props {
+  name: string;
+  about: string;
+  hobbies: string[];
+}
+
+const { name, about, hobbies } = Astro.props;
+
+const hobbyIcons = {
+  Skateboarding: Bike,
+  Music,
+  Coffee,
+  Programming: Terminal,
+  Travelling: Plane,
+  Nature: Trees,
+};
+---
+
+<section class="section hero-section" id="about">
+  <img
+    src="/images/profile.jpg"
+    alt={name}
+    class="profile-image"
+  />
+
+  <h2>About</h2>
+
+  <p class="bio">
+    {about}
+  </p>
+
+  <div class="hobbies">
+    {
+      hobbies.map((hobby) => {
+        const Icon = hobbyIcons[hobby as keyof typeof hobbyIcons];
+
+        return Icon ? (
+          <span class="hobby-icon" title={hobby}>
+            <Icon size={18} />
+          </span>
+        ) : null;
+      })
+    }
+  </div>
+</section>

@@ -1,0 +1,33 @@
+---
+interface Education {
+  degree: string;
+  school: string;
+  period: string;
+  description: string;
+}
+
+interface Props {
+  education: Education[];
+}
+
+const { education } = Astro.props;
+---
+
+<section class='section education-section' id='education'>
+  <h2>Education</h2>
+
+  <div class='education-list'>
+    {
+      education.map((item) => (
+        <article class='timeline-experience-item'>
+          <div class='timeline-experience-header'>
+            <h3>{item.degree}</h3>
+            <span class='period'>{item.period}</span>
+          </div>
+          <p class='subtitle'>{item.school}</p>
+          <p class='description'>{item.description}</p>
+        </article>
+      ))
+    }
+  </div>
+</section>

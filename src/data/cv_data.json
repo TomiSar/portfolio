@@ -1,0 +1,128 @@
+{
+  "name": "Tomi Sarjamo",
+  "title": "Senior DevOps Engineer & Full-Stack Developer",
+  "location": "Helsinki, Finland",
+  "email": "tomppa.sarjamo@gmail.com",
+  "about": "Hello, I am Tomi Sarjamo, a Senior DevOps Engineer and Full-Stack Developer specializing in cloud-native platforms, GitOps, and AI-driven development. I have a strong track record in architecting scalable delivery workflows and developing complex financial and industrial software solutions. Passionate about developer experience and platform automation.",
+  "hobbies": [
+    "Skateboarding",
+    "Music",
+    "Coffee",
+    "Programming",
+    "Travelling",
+    "Nature"
+  ],
+  "skills": {
+    "AI & Platform": [
+      "Agent-based development",
+      "AI-driven workflows",
+      "Prompt engineering",
+      "GitHub Copilot",
+      "Platform Engineering"
+    ],
+    "Languages": [
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Vue.js",
+      "Node.js",
+      "Java",
+      "Python",
+      "C#",
+      "C++"
+    ],
+    "Cloud & DevOps": [
+      "Azure (AKS)",
+      "AWS",
+      "Kubernetes",
+      "OpenShift",
+      "Terraform",
+      "GitOps (ArgoCD)",
+      "GitLab CI/CD",
+      "Docker"
+    ],
+    "Databases & Tools": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "ELK Stack",
+      "Kafka",
+      "Robot Framework"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Mandatum",
+      "role": "Senior DevOps Engineer",
+      "period": "05/2026 - Present",
+      "description": "Architecting a DevOps portal using Vue.js, Node.js, and Python. Streamlining delivery workflows through AI-driven practices and managing scalable AKS/OpenShift environments with GitOps (ArgoCD) and Terraform."
+    },
+    {
+      "company": "Vivicta / Tietoevry (OP Pohjola)",
+      "role": "Senior Software Developer",
+      "period": "08/2024 - 05/2026",
+      "description": "Full-stack development for banking and finance systems, focusing on credit granting and financing decision applications. Stack: React, TypeScript, Java/Spring Boot, Kafka, and Test Automation."
+    },
+    {
+      "company": "Softability Oy (ABB Drives)",
+      "role": "Senior Software Engineer",
+      "period": "04/2022 - 08/2024",
+      "description": "Worked on embedded systems and industrial AC drives. Developed internal Automated Testing Frameworks (ATF) using C#, .NET, C++, and Python. Focused on fieldbus programming and CI/CD pipelines."
+    },
+    {
+      "company": "Comiq",
+      "role": "Software Consultant",
+      "period": "03/2021 - 04/2022",
+      "description": "Full-stack consulting for public and private sector clients using open-source technologies. Implemented E2E testing, Keycloak auth, and observability solutions (ELK Stack)."
+    },
+    {
+      "company": "Tieto",
+      "role": "Software Developer / Architect",
+      "period": "10/2019 - 03/2021",
+      "description": "Architecture design and troubleshooting for complex Java-based systems. Managed containerized environments with Kubernetes and Docker for various client projects."
+    },
+    {
+      "company": "Dynniq Finland",
+      "role": "Project Engineer",
+      "period": "03/2018 - 12/2018",
+      "description": "Developed intelligent traffic solutions and UI configurations for Finnish cities. Worked on Android cycle applications, traffic calculations (Java/Python), and data analysis using ELK."
+    },
+    {
+      "company": "Etteplan (ABB Drives)",
+      "role": "Test Automation Engineer",
+      "period": "01/2012 - 12/2015",
+      "description": "Designed and implemented automated testing for frequency converters and industrial drives using C# and Python. Maintained integration servers and automated scripts."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Engineering (B.Eng.) in Electronics",
+      "school": "Metropolia University of Applied Sciences",
+      "period": "2010",
+      "description": "Specialized in Electronics Design and Software Development."
+    },
+    {
+      "degree": "Computer Science (Open University)",
+      "school": "University of Helsinki",
+      "period": "2019 - 2025",
+      "description": "Computer Science studies focusing on modern software development, including: Full Stack Open, Test-Driven Development, Securing Software WEB Server Programming, Programming MOOC Java/Python (Advanced course) and Databases."
+    }
+  ],
+  "socials": {
+    "github": {
+      "url": "https://github.com/TomiSar",
+      "img": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
+      "alt": "GitHub"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/tomi-sarjamo-2394151b/",
+      "img": "https://img.icons8.com/color/1200/linkedin.jpg",
+      "alt": "LinkedIn"
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/tomisarjamo/",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1920px-Instagram_logo_2022.svg.png",
+      "alt": "Instagram"
+    }
+  }
+}
