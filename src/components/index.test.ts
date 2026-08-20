@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { experimental_AstroContainer as AstroContainer } from 'astro/container';
-import Index from './index.astro';
+import Index from '../pages/index.astro';
 import data from '../data/cv_data.json';
 
 describe('Index Page', () => {
