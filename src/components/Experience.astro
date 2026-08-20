@@ -3,6 +3,7 @@ interface Experience {
   company: string;
   role: string;
   period: string;
+  projects?: string;
   description: string;
 }
 
@@ -24,6 +25,7 @@ const { experience } = Astro.props;
             <span class='period'>{job.period}</span>
           </div>
           <p class='subtitle'>{job.company}</p>
+          {job.projects && <p class='projects'>{job.projects}</p>}
           <p class='description'>{job.description}</p>
         </article>
       ))

@@ -61,36 +61,41 @@
       "company": "Vivicta / Tietoevry (OP Pohjola)",
       "role": "Senior Software Developer",
       "period": "08/2024 - 05/2026",
+      "projects": "OP Pohjola",
       "description": "Full-stack development for banking and finance systems, focusing on credit granting and financing decision applications. Stack: React, TypeScript, Java/Spring Boot, Kafka, and Test Automation."
     },
     {
-      "company": "Softability Oy (ABB Drives)",
+      "company": "Softability Oy ",
       "role": "Senior Software Engineer",
       "period": "04/2022 - 08/2024",
+      "projects": "ABB Drives",
       "description": "Worked on embedded systems and industrial AC drives. Developed internal Automated Testing Frameworks (ATF) using C#, .NET, C++, and Python. Focused on fieldbus programming and CI/CD pipelines."
     },
     {
       "company": "Comiq",
       "role": "Software Consultant",
       "period": "03/2021 - 04/2022",
+      "projects": "Helsingin kaupunki, Picosun Oy",
       "description": "Full-stack consulting for public and private sector clients using open-source technologies. Implemented E2E testing, Keycloak auth, and observability solutions (ELK Stack)."
     },
     {
       "company": "Tieto",
       "role": "Software Developer / Architect",
       "period": "10/2019 - 03/2021",
+      "projects": "Arek Oy, HSL",
       "description": "Architecture design and troubleshooting for complex Java-based systems. Managed containerized environments with Kubernetes and Docker for various client projects."
     },
     {
-      "company": "Dynniq Finland",
+      "company": "Dynniq Finland Oy",
       "role": "Project Engineer",
       "period": "03/2018 - 12/2018",
       "description": "Developed intelligent traffic solutions and UI configurations for Finnish cities. Worked on Android cycle applications, traffic calculations (Java/Python), and data analysis using ELK."
     },
     {
-      "company": "Etteplan (ABB Drives)",
+      "company": "Etteplan Oyj",
       "role": "Test Automation Engineer",
       "period": "01/2012 - 12/2015",
+      "projects": "ABB Drives",
       "description": "Designed and implemented automated testing for frequency converters and industrial drives using C# and Python. Maintained integration servers and automated scripts."
     }
   ],

@@ -6,4 +6,8 @@ export default defineConfig({
   server: {
     port: 4000,
   },
+  experimental: {
+    chromeDevtoolsWorkspace: true,
+    contentIntellisense: true,
+  },
 });
