@@ -1,6 +1,6 @@
 ---
 import {
-  Bike,
+  SquareStar,
   Music,
   Coffee,
   Terminal,
@@ -17,7 +17,7 @@ interface Props {
 const { name, about, hobbies } = Astro.props;
 
 const hobbyIcons = {
-  Skateboarding: Bike,
+  Skateboarding: SquareStar,
   Music,
   Coffee,
   Programming: Terminal,
@@ -26,27 +26,20 @@ const hobbyIcons = {
 };
 ---
 
-<section class="section hero-section" id="about">
-  <img
-    src="/images/profile.jpg"
-    alt={name}
-    class="profile-image"
-  />
-
+<section class='section hero-section' id='about'>
+  <img src='/images/profile.jpg' alt={name} class='profile-image' />
   <h2>About</h2>
-
-  <p class="bio">
+  <p class='bio'>
     {about}
   </p>
 
-  <div class="hobbies">
+  <div class='hobbies'>
     {
       hobbies.map((hobby) => {
         const Icon = hobbyIcons[hobby as keyof typeof hobbyIcons];
-
         return Icon ? (
-          <span class="hobby-icon" title={hobby}>
-            <Icon size={18} />
+          <span class='hobby-icon' title={hobby}>
+            <Icon size={24} />
           </span>
         ) : null;
       })

@@ -1,4 +1,6 @@
 ---
+import SocialLink from './SocialLink.astro';
+
 interface Social {
   url: string;
   img: string;
@@ -6,42 +8,26 @@ interface Social {
 }
 
 interface Props {
-  socials: {
-    instagram: Social;
-    github: Social;
-    linkedin: Social;
-  };
+  title: string;
+  navlinkId: string;
+  socials: Record<string, Social>;
 }
 
-const { socials } = Astro.props;
+const { title, navlinkId, socials } = Astro.props;
 ---
 
-<footer class='social-section' id='socialmedia'>
-  <h2>Social Media</h2>
+<footer class='footer-section' id={navlinkId}>
+  <h2>{title}</h2>
   <div class='nav-links'>
-    <a href={socials.instagram.url} target='_blank' rel='noopener noreferrer'>
-      <img
-        class='social-image'
-        src={socials.instagram.img}
-        alt={socials.instagram.alt}
-      />
-      Instagram
-    </a>
-    <a href={socials.github.url} target='_blank' rel='noopener noreferrer'>
-      <img
-        class='social-image'
-        src={socials.github.img}
-        alt={socials.github.alt}
-      />
-      GitHub
-    </a>
-    <a href={socials.linkedin.url} target='_blank' rel='noopener noreferrer'>
-      <img
-        class='social-image'
-        src={socials.linkedin.img}
-        alt={socials.linkedin.alt}
-      />
-      LinkedIn
-    </a>
+    {
+      Object.entries(socials).map(([key, data]) => (
+        <SocialLink
+          url={data.url}
+          img={data.img}
+          alt={data.alt}
+          label={key.charAt(0).toUpperCase() + key.slice(1)}
+        />
+      ))
+    }
   </div>
 </footer>

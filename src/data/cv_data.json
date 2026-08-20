@@ -109,6 +109,11 @@
     }
   ],
   "socials": {
+    "instagram": {
+      "url": "https://www.instagram.com/tomisarjamo/",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1920px-Instagram_logo_2022.svg.png",
+      "alt": "Instagram"
+    },
     "github": {
       "url": "https://github.com/TomiSar",
       "img": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
@@ -118,11 +123,6 @@
       "url": "https://www.linkedin.com/in/tomi-sarjamo-2394151b/",
       "img": "https://img.icons8.com/color/1200/linkedin.jpg",
       "alt": "LinkedIn"
-    },
-    "instagram": {
-      "url": "https://www.instagram.com/tomisarjamo/",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1920px-Instagram_logo_2022.svg.png",
-      "alt": "Instagram"
     }
   }
 }

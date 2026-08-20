@@ -8,21 +8,19 @@
     <a href='#skills'>Skills</a>
     <a href='#experience'>Experience</a>
     <a href='#education'>Education</a>
-    <a href='#socialmedia'>Social Media</a>
+    <a href='#social'>Social Media</a>
     <button id='theme-toggle' type='button'> DARK MODE</button>
   </nav>
 </header>
 
 <script>
+  import { changeTheme } from '../helpers/utils';
   const button = document.querySelector('#theme-toggle');
 
   button?.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark_mode');
-
-    const isDarkMode = document.documentElement.classList.contains('dark_mode');
-
+    const newThemeText = changeTheme();
     if (button) {
-      button.textContent = isDarkMode ? 'LIGHT MODE' : 'DARK MODE';
+      button.textContent = newThemeText;
     }
   });
 </script>

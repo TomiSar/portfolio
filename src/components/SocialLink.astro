@@ -1,0 +1,15 @@
+---
+interface Props {
+  url: string;
+  img: string;
+  alt: string;
+  label: string;
+}
+
+const { url, img, alt, label } = Astro.props;
+---
+
+<a href={url} target='_blank' rel='noopener noreferrer'>
+  <img class='social-image' src={img} alt={alt} />
+  {label}
+</a>

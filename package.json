@@ -9,10 +9,19 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "astro": "^7.2.4",
     "lucide-astro": "^0.556.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.11",
+    "@vitest/ui": "^4.1.11",
+    "jsdom": "^28.1.0",
+    "vitest": "^4.1.11"
   }
 }
