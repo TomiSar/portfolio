@@ -12,6 +12,7 @@ It is minimalist, accessible, and technically optimized.
 ![alt text](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
 ![alt text](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![alt text](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Playwright Tests](https://github.com/TomiSar/portfolio/actions/workflows/playwright.yml/badge.svg)
 
 ## Deployment
 
