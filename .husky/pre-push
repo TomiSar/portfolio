@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🚀 Running tests before pushing..."
+
+# Run unit tests and E2E-tests
+npm test && npm run test:e2e

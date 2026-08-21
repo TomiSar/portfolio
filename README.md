@@ -68,7 +68,9 @@ All commands are run from the root of the project, from a terminal:
 | `npm install`             | Installs dependencies                            |
 | `npm run dev`             | Starts local dev server at `localhost:4000`      |
 | `npm run test`            | Run tests                                        |
+| `npm run test:watch`      | Run tests watch mode                             |
 | `npm run test:coverage`   | Run tests with coverage                          |
+| `npm run test:e2e`        | Run E2E tests                                    |
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
