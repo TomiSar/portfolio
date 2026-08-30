@@ -16,7 +16,7 @@ It is minimalist, accessible, and technically optimized.
 
 ## Deployment
 
-https://portfolio-seven-tawny-51.vercel.app/
+[Portfolio Vercel](https://tomi-sarjamo-portfolio.vercel.app/)
 
 ## ✨ Main features
 
