@@ -46,4 +46,17 @@ describe('Experience Component', () => {
     const articles = result.match(/<article/g);
     expect(articles?.length).toBe(mockExperience.length);
   });
+
+  it('should render download CV button with correct attributes', async () => {
+    const container = await AstroContainer.create();
+    const result = await container.renderToString(Experience, {
+      props: { experience: mockExperience },
+    });
+
+    expect(result).toContain('Download CV (PDF)');
+    expect(result).toContain('class="download-cv-btn"');
+
+    expect(result).toContain('href="/Tomi_Sarjamo_CV.pdf"');
+    expect(result).toContain('download="Tomi_Sarjamo_CV.pdf"');
+  });
 });

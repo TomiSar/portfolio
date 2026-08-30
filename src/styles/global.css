@@ -139,6 +139,32 @@ section {
   flex-wrap: wrap;
 }
 
+.download-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--accent-color, #0076d6);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.download-cv-btn:hover {
+  background-color: var(--accent-color-hover, #00569e);
+  transform: translateY(-1px);
+}
+
+.download-cv-btn:active {
+  transform: translateY(0);
+}
+
 .period {
   font-weight: 600;
   color: var(--accent-color);
@@ -262,5 +288,39 @@ section {
   }
   100% {
     transform: rotate(-720deg);
+  }
+}
+
+@media print {
+  header,
+  nav,
+  .dark-mode-toggle {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    padding-top: 0 !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  article,
+  .timeline-experience-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .section {
+    page-break-inside: auto;
+    break-inside: auto;
   }
 }

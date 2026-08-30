@@ -68,6 +68,7 @@ All commands are run from the root of the project, from a terminal:
 | :------------------------ | :----------------------------------------------- |
 | `npm install`             | Installs dependencies                            |
 | `npm run dev`             | Starts local dev server at `localhost:4000`      |
+| `npx astro preview`       | Preview your build locally.                      |
 | `npm run test`            | Run tests                                        |
 | `npm run test:watch`      | Run tests watch mode                             |
 | `npm run test:coverage`   | Run tests with coverage                          |
